@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Screen | مصمم مواقع محترف</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(160deg, #000814, #001d3d, #000814);
+      color: #00f2ff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+      background: radial-gradient(circle at top, #002b45, #000814);
+      animation: fadeIn 1.5s ease-out;
+      border-bottom: 2px solid #00c3ff44;
+    }
+
+    header h1 {
+      font-size: 3.5em;
+      margin: 0;
+      color: #00eaff;
+      text-shadow: 0 0 15px #00c3ff;
+    }
+
+    header p {
+      font-size: 1.5em;
+      margin-top: 10px;
+      color: #66f9ff;
+    }
+
+    .ad img {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: cover;
+      box-shadow: 0 0 20px #00f2ff88;
+      animation: slideIn 1.2s ease-out;
+    }
+
+    .profile {
+      text-align: center;
+      margin: 40px 0 10px;
+      animation: zoomIn 1s ease-in;
+    }
+
+    .profile img {
+      width: 180px;
+      border-radius: 50%;
+      border: 3px solid #00eaff;
+      box-shadow: 0 0 25px #00f2ffaa;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .profile img:hover {
+      transform: scale(1.1) rotate(1deg);
+    }
+
+    .links {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 12px;
+      padding: 12px 30px;
+      border: 2px solid #00eaff;
+      color: #00eaff;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 1.2em;
+      background: transparent;
+      box-shadow: 0 0 15px #00eaff66;
+      transition: all 0.3s ease;
+    }
+
+    .links a:hover {
+      background: #00eaff22;
+      color: #fff;
+      box-shadow: 0 0 30px #00eaff99;
+    }
+
+    .contact-note {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 1.3em;
+      color: #66f9ff;
+    }
+
+    .contact-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .contact-button a {
+      padding: 14px 35px;
+      background-color: #00f2ff22;
+      color: #00eaff;
+      border: 2px solid #00eaff;
+      border-radius: 50px;
+      font-size: 1.2em;
+      text-decoration: none;
+      transition: 0.3s ease;
+      box-shadow: 0 0 20px #00eaff66;
+    }
+
+    .contact-button a:hover {
+      background-color: #00eaff44;
+      box-shadow: 0 0 40px #00eaffaa;
+      color: #fff;
+    }
+
+    .video {
+      text-align: center;
+      margin: 60px 0;
+    }
+
+    .video h2 {
+      color: #00eaff;
+      margin-bottom: 20px;
+      font-size: 1.8em;
+      text-shadow: 0 0 10px #00c3ff;
+    }
+
+    iframe {
+      width: 90%;
+      max-width: 600px;
+      height: 340px;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 0 30px #00f2ff99;
+    }
+
+    footer {
+      background: #001524;
+      text-align: center;
+      padding: 25px;
+      font-size: 1.1em;
+      color: #00eaff;
+      border-top: 2px solid #00c3ff44;
+      box-shadow: 0 -2px 10px #00c3ff33;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes zoomIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateX(100px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    /* Responsive */
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
+      .links a, .contact-button a {
+        font-size: 1em;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- إعلان -->
+  <div class="ad">
+    <img src="https://raw.githubusercontent.com/screen-0001/Screen/refs/heads/main/file_00000000916461fd8cd659be6b1bebe4.png" alt="إعلان Screen">
+  </div>
+
+  <!-- رأس الموقع -->
+  <header>
+    <h1>Screen</h1>
+    <p>مصمم ومبرمج مواقع احترافية بإبداع وفن</p>
+  </header>
+
+  <!-- صورة القناة -->
+  <div class="profile">
+    <img src="https://raw.githubusercontent.com/screen-0001/Screen/refs/heads/main/بدون%20اسم2.png" alt="شعار القناة">
+  </div>
+
+  <!-- روابط التواصل -->
+  <div class="links">
+    <a href="https://www.youtube.com/@Screen-yb4qb" target="_blank">يوتيوب</a>
+    <a href="https://discord.gg/C2Dm4E4N" target="_blank">ديسكورد</a>
+    <a href="https://www.instagram.com/screen6988/" target="_blank">إنستجرام</a>
+  </div>
+
+  <!-- ملاحظة للتواصل -->
+  <div class="contact-note">
+    هل ترغب في موقع احترافي؟ تواصل معي وسأصمم لك ما يناسبك تمامًا!
+  </div>
+
+  <div class="contact-button">
+    <a href="https://www.instagram.com/screen6988/" target="_blank">تواصل الآن</a>
+  </div>
+
+  <!-- فيديو -->
+  <div class="video">
+    <h2>شاهد أعمالي 👇</h2>
+    <iframe src="https://youtu.be/yqapbtOj5UU?si=AIXimTQXK04y8pJb" allowfullscreen></iframe>
+  </div>
+
+  <!-- تذييل -->
+  <footer>
+    &copy; 2025 Screen | جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
